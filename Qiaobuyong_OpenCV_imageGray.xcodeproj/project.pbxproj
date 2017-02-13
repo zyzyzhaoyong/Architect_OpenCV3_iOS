@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188368801E4C04C800A863D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1883687F1E4C04C800A863D2 /* main.m */; };
+		188368831E4C04C800A863D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188368821E4C04C800A863D2 /* AppDelegate.m */; };
+		188368861E4C04C800A863D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188368851E4C04C800A863D2 /* ViewController.m */; };
+		188368891E4C04C800A863D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188368871E4C04C800A863D2 /* Main.storyboard */; };
+		1883688B1E4C04C800A863D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1883688A1E4C04C800A863D2 /* Assets.xcassets */; };
+		1883688E1E4C04C800A863D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1883688C1E4C04C800A863D2 /* LaunchScreen.storyboard */; };
+		188368991E4C04C800A863D2 /* Qiaobuyong_OpenCV_imageGrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188368981E4C04C800A863D2 /* Qiaobuyong_OpenCV_imageGrayTests.m */; };
+		188368A41E4C04C900A863D2 /* Qiaobuyong_OpenCV_imageGrayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188368A31E4C04C900A863D2 /* Qiaobuyong_OpenCV_imageGrayUITests.m */; };
+		188368B91E4C052600A863D2 /* ImageUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 188368B81E4C052600A863D2 /* ImageUtils.mm */; };
+		188368BF1E4C081E00A863D2 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188368BE1E4C081E00A863D2 /* opencv2.framework */; };
+		188368C61E4C1EBF00A863D2 /* systemStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 188368C51E4C1EBF00A863D2 /* systemStrategy.m */; };
+		188368C91E4C1F8000A863D2 /* OpencvStrategy.mm in Sources */ = {isa = PBXBuildFile; fileRef = 188368C81E4C1F8000A863D2 /* OpencvStrategy.mm */; };
+		188368CD1E4C5BAA00A863D2 /* 紫霞仙子.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 188368CC1E4C5BAA00A863D2 /* 紫霞仙子.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		188368951E4C04C800A863D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 188368731E4C04C800A863D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1883687A1E4C04C800A863D2;
+			remoteInfo = Qiaobuyong_OpenCV_imageGray;
+		};
+		188368A01E4C04C900A863D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 188368731E4C04C800A863D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1883687A1E4C04C800A863D2;
+			remoteInfo = Qiaobuyong_OpenCV_imageGray;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1883687B1E4C04C800A863D2 /* Qiaobuyong_OpenCV_imageGray.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qiaobuyong_OpenCV_imageGray.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1883687F1E4C04C800A863D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		188368811E4C04C800A863D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		188368821E4C04C800A863D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		188368841E4C04C800A863D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		188368851E4C04C800A863D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		188368881E4C04C800A863D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1883688A1E4C04C800A863D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1883688D1E4C04C800A863D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1883688F1E4C04C800A863D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188368941E4C04C800A863D2 /* Qiaobuyong_OpenCV_imageGrayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Qiaobuyong_OpenCV_imageGrayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		188368981E4C04C800A863D2 /* Qiaobuyong_OpenCV_imageGrayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Qiaobuyong_OpenCV_imageGrayTests.m; sourceTree = "<group>"; };
+		1883689A1E4C04C800A863D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1883689F1E4C04C900A863D2 /* Qiaobuyong_OpenCV_imageGrayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Qiaobuyong_OpenCV_imageGrayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		188368A31E4C04C900A863D2 /* Qiaobuyong_OpenCV_imageGrayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Qiaobuyong_OpenCV_imageGrayUITests.m; sourceTree = "<group>"; };
+		188368A51E4C04C900A863D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188368B71E4C052600A863D2 /* ImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUtils.h; sourceTree = "<group>"; };
+		188368B81E4C052600A863D2 /* ImageUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageUtils.mm; sourceTree = "<group>"; };
+		188368BE1E4C081E00A863D2 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		188368C21E4C1DDB00A863D2 /* Strategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Strategy.h; sourceTree = "<group>"; };
+		188368C41E4C1EBF00A863D2 /* systemStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = systemStrategy.h; path = ../systemStrategy.h; sourceTree = "<group>"; };
+		188368C51E4C1EBF00A863D2 /* systemStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = systemStrategy.m; path = ../systemStrategy.m; sourceTree = "<group>"; };
+		188368C71E4C1F8000A863D2 /* OpencvStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpencvStrategy.h; sourceTree = "<group>"; };
+		188368C81E4C1F8000A863D2 /* OpencvStrategy.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpencvStrategy.mm; sourceTree = "<group>"; };
+		188368CC1E4C5BAA00A863D2 /* 紫霞仙子.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "紫霞仙子.jpeg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188368781E4C04C800A863D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188368BF1E4C081E00A863D2 /* opencv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188368911E4C04C800A863D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1883689C1E4C04C900A863D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		188368721E4C04C800A863D2 = {
+			isa = PBXGroup;
+			children = (
+				1883687D1E4C04C800A863D2 /* Qiaobuyong_OpenCV_imageGray */,
+				188368971E4C04C800A863D2 /* Qiaobuyong_OpenCV_imageGrayTests */,
+				188368A21E4C04C900A863D2 /* Qiaobuyong_OpenCV_imageGrayUITests */,
+				1883687C1E4C04C800A863D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1883687C1E4C04C800A863D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1883687B1E4C04C800A863D2 /* Qiaobuyong_OpenCV_imageGray.app */,
+				188368941E4C04C800A863D2 /* Qiaobuyong_OpenCV_imageGrayTests.xctest */,
+				1883689F1E4C04C900A863D2 /* Qiaobuyong_OpenCV_imageGrayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1883687D1E4C04C800A863D2 /* Qiaobuyong_OpenCV_imageGray */ = {
+			isa = PBXGroup;
+			children = (
+				188368BE1E4C081E00A863D2 /* opencv2.framework */,
+				188368B61E4C050E00A863D2 /* ImageUtils */,
+				188368811E4C04C800A863D2 /* AppDelegate.h */,
+				188368821E4C04C800A863D2 /* AppDelegate.m */,
+				188368841E4C04C800A863D2 /* ViewController.h */,
+				188368851E4C04C800A863D2 /* ViewController.m */,
+				188368871E4C04C800A863D2 /* Main.storyboard */,
+				188368CC1E4C5BAA00A863D2 /* 紫霞仙子.jpeg */,
+				1883688A1E4C04C800A863D2 /* Assets.xcassets */,
+				1883688C1E4C04C800A863D2 /* LaunchScreen.storyboard */,
+				1883688F1E4C04C800A863D2 /* Info.plist */,
+				1883687E1E4C04C800A863D2 /* Supporting Files */,
+			);
+			path = Qiaobuyong_OpenCV_imageGray;
+			sourceTree = "<group>";
+		};
+		1883687E1E4C04C800A863D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1883687F1E4C04C800A863D2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		188368971E4C04C800A863D2 /* Qiaobuyong_OpenCV_imageGrayTests */ = {
+			isa = PBXGroup;
+			children = (
+				188368981E4C04C800A863D2 /* Qiaobuyong_OpenCV_imageGrayTests.m */,
+				1883689A1E4C04C800A863D2 /* Info.plist */,
+			);
+			path = Qiaobuyong_OpenCV_imageGrayTests;
+			sourceTree = "<group>";
+		};
+		188368A21E4C04C900A863D2 /* Qiaobuyong_OpenCV_imageGrayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				188368A31E4C04C900A863D2 /* Qiaobuyong_OpenCV_imageGrayUITests.m */,
+				188368A51E4C04C900A863D2 /* Info.plist */,
+			);
+			path = Qiaobuyong_OpenCV_imageGrayUITests;
+			sourceTree = "<group>";
+		};
+		188368B61E4C050E00A863D2 /* ImageUtils */ = {
+			isa = PBXGroup;
+			children = (
+				188368B71E4C052600A863D2 /* ImageUtils.h */,
+				188368B81E4C052600A863D2 /* ImageUtils.mm */,
+				188368C21E4C1DDB00A863D2 /* Strategy.h */,
+				188368C41E4C1EBF00A863D2 /* systemStrategy.h */,
+				188368C51E4C1EBF00A863D2 /* systemStrategy.m */,
+				188368C71E4C1F8000A863D2 /* OpencvStrategy.h */,
+				188368C81E4C1F8000A863D2 /* OpencvStrategy.mm */,
+			);
+			name = ImageUtils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1883687A1E4C04C800A863D2 /* Qiaobuyong_OpenCV_imageGray */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188368A81E4C04C900A863D2 /* Build configuration list for PBXNativeTarget "Qiaobuyong_OpenCV_imageGray" */;
+			buildPhases = (
+				188368771E4C04C800A863D2 /* Sources */,
+				188368781E4C04C800A863D2 /* Frameworks */,
+				188368791E4C04C800A863D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Qiaobuyong_OpenCV_imageGray;
+			productName = Qiaobuyong_OpenCV_imageGray;
+			productReference = 1883687B1E4C04C800A863D2 /* Qiaobuyong_OpenCV_imageGray.app */;
+			productType = "com.apple.product-type.application";
+		};
+		188368931E4C04C800A863D2 /* Qiaobuyong_OpenCV_imageGrayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188368AB1E4C04C900A863D2 /* Build configuration list for PBXNativeTarget "Qiaobuyong_OpenCV_imageGrayTests" */;
+			buildPhases = (
+				188368901E4C04C800A863D2 /* Sources */,
+				188368911E4C04C800A863D2 /* Frameworks */,
+				188368921E4C04C800A863D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				188368961E4C04C800A863D2 /* PBXTargetDependency */,
+			);
+			name = Qiaobuyong_OpenCV_imageGrayTests;
+			productName = Qiaobuyong_OpenCV_imageGrayTests;
+			productReference = 188368941E4C04C800A863D2 /* Qiaobuyong_OpenCV_imageGrayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1883689E1E4C04C900A863D2 /* Qiaobuyong_OpenCV_imageGrayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188368AE1E4C04C900A863D2 /* Build configuration list for PBXNativeTarget "Qiaobuyong_OpenCV_imageGrayUITests" */;
+			buildPhases = (
+				1883689B1E4C04C900A863D2 /* Sources */,
+				1883689C1E4C04C900A863D2 /* Frameworks */,
+				1883689D1E4C04C900A863D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				188368A11E4C04C900A863D2 /* PBXTargetDependency */,
+			);
+			name = Qiaobuyong_OpenCV_imageGrayUITests;
+			productName = Qiaobuyong_OpenCV_imageGrayUITests;
+			productReference = 1883689F1E4C04C900A863D2 /* Qiaobuyong_OpenCV_imageGrayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		188368731E4C04C800A863D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "乔布永";
+				TargetAttributes = {
+					1883687A1E4C04C800A863D2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					188368931E4C04C800A863D2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1883687A1E4C04C800A863D2;
+					};
+					1883689E1E4C04C900A863D2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1883687A1E4C04C800A863D2;
+					};
+				};
+			};
+			buildConfigurationList = 188368761E4C04C800A863D2 /* Build configuration list for PBXProject "Qiaobuyong_OpenCV_imageGray" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 188368721E4C04C800A863D2;
+			productRefGroup = 1883687C1E4C04C800A863D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1883687A1E4C04C800A863D2 /* Qiaobuyong_OpenCV_imageGray */,
+				188368931E4C04C800A863D2 /* Qiaobuyong_OpenCV_imageGrayTests */,
+				1883689E1E4C04C900A863D2 /* Qiaobuyong_OpenCV_imageGrayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		188368791E4C04C800A863D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1883688E1E4C04C800A863D2 /* LaunchScreen.storyboard in Resources */,
+				1883688B1E4C04C800A863D2 /* Assets.xcassets in Resources */,
+				188368891E4C04C800A863D2 /* Main.storyboard in Resources */,
+				188368CD1E4C5BAA00A863D2 /* 紫霞仙子.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188368921E4C04C800A863D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1883689D1E4C04C900A863D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188368771E4C04C800A863D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188368861E4C04C800A863D2 /* ViewController.m in Sources */,
+				188368831E4C04C800A863D2 /* AppDelegate.m in Sources */,
+				188368C61E4C1EBF00A863D2 /* systemStrategy.m in Sources */,
+				188368C91E4C1F8000A863D2 /* OpencvStrategy.mm in Sources */,
+				188368801E4C04C800A863D2 /* main.m in Sources */,
+				188368B91E4C052600A863D2 /* ImageUtils.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188368901E4C04C800A863D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188368991E4C04C800A863D2 /* Qiaobuyong_OpenCV_imageGrayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1883689B1E4C04C900A863D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188368A41E4C04C900A863D2 /* Qiaobuyong_OpenCV_imageGrayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		188368961E4C04C800A863D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1883687A1E4C04C800A863D2 /* Qiaobuyong_OpenCV_imageGray */;
+			targetProxy = 188368951E4C04C800A863D2 /* PBXContainerItemProxy */;
+		};
+		188368A11E4C04C900A863D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1883687A1E4C04C800A863D2 /* Qiaobuyong_OpenCV_imageGray */;
+			targetProxy = 188368A01E4C04C900A863D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		188368871E4C04C800A863D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188368881E4C04C800A863D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1883688C1E4C04C800A863D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1883688D1E4C04C800A863D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		188368A61E4C04C900A863D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		188368A71E4C04C900A863D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		188368A91E4C04C900A863D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Qiaobuyong_OpenCV_imageGray",
+				);
+				INFOPLIST_FILE = Qiaobuyong_OpenCV_imageGray/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qiaobuyong-OpenCV.www.Qiaobuyong-OpenCV-imageGray";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		188368AA1E4C04C900A863D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Qiaobuyong_OpenCV_imageGray",
+				);
+				INFOPLIST_FILE = Qiaobuyong_OpenCV_imageGray/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qiaobuyong-OpenCV.www.Qiaobuyong-OpenCV-imageGray";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		188368AC1E4C04C900A863D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Qiaobuyong_OpenCV_imageGrayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qiaobuyong-OpenCV.www.Qiaobuyong-OpenCV-imageGrayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qiaobuyong_OpenCV_imageGray.app/Qiaobuyong_OpenCV_imageGray";
+			};
+			name = Debug;
+		};
+		188368AD1E4C04C900A863D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Qiaobuyong_OpenCV_imageGrayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qiaobuyong-OpenCV.www.Qiaobuyong-OpenCV-imageGrayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qiaobuyong_OpenCV_imageGray.app/Qiaobuyong_OpenCV_imageGray";
+			};
+			name = Release;
+		};
+		188368AF1E4C04C900A863D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Qiaobuyong_OpenCV_imageGrayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qiaobuyong-OpenCV.www.Qiaobuyong-OpenCV-imageGrayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Qiaobuyong_OpenCV_imageGray;
+			};
+			name = Debug;
+		};
+		188368B01E4C04C900A863D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Qiaobuyong_OpenCV_imageGrayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qiaobuyong-OpenCV.www.Qiaobuyong-OpenCV-imageGrayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Qiaobuyong_OpenCV_imageGray;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188368761E4C04C800A863D2 /* Build configuration list for PBXProject "Qiaobuyong_OpenCV_imageGray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188368A61E4C04C900A863D2 /* Debug */,
+				188368A71E4C04C900A863D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188368A81E4C04C900A863D2 /* Build configuration list for PBXNativeTarget "Qiaobuyong_OpenCV_imageGray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188368A91E4C04C900A863D2 /* Debug */,
+				188368AA1E4C04C900A863D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		188368AB1E4C04C900A863D2 /* Build configuration list for PBXNativeTarget "Qiaobuyong_OpenCV_imageGrayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188368AC1E4C04C900A863D2 /* Debug */,
+				188368AD1E4C04C900A863D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		188368AE1E4C04C900A863D2 /* Build configuration list for PBXNativeTarget "Qiaobuyong_OpenCV_imageGrayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188368AF1E4C04C900A863D2 /* Debug */,
+				188368B01E4C04C900A863D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 188368731E4C04C800A863D2 /* Project object */;
+}

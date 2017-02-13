@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="紫霞仙子.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="jfF-FK-LQS">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="386"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YbJ-u8-VM8">
+                                <rect key="frame" x="16" y="439" width="62" height="30"/>
+                                <state key="normal" title="图片灰度"/>
+                                <connections>
+                                    <action selector="clickImageGray:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1BL-aX-ezc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YHF-xE-Fup">
+                                <rect key="frame" x="297" y="439" width="62" height="30"/>
+                                <state key="normal" title="原始图片"/>
+                                <connections>
+                                    <action selector="clickImageNormal:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2cN-Rt-F1l"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="YHF-xE-Fup" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="53h-3F-VoD"/>
+                            <constraint firstAttribute="trailing" secondItem="jfF-FK-LQS" secondAttribute="trailing" id="5Vw-Q2-lRh"/>
+                            <constraint firstItem="YHF-xE-Fup" firstAttribute="leading" secondItem="YbJ-u8-VM8" secondAttribute="trailing" constant="219" id="69d-37-BYn"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YHF-xE-Fup" secondAttribute="bottom" constant="198" id="F4g-BG-ZkG"/>
+                            <constraint firstItem="YbJ-u8-VM8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="GWi-yI-UlS"/>
+                            <constraint firstItem="YHF-xE-Fup" firstAttribute="top" secondItem="jfF-FK-LQS" secondAttribute="bottom" constant="53" id="JTV-4z-bTp"/>
+                            <constraint firstAttribute="bottom" secondItem="jfF-FK-LQS" secondAttribute="bottom" constant="281" id="KTB-AW-Pa4"/>
+                            <constraint firstItem="YHF-xE-Fup" firstAttribute="leading" secondItem="YbJ-u8-VM8" secondAttribute="trailing" constant="219" id="OLH-a5-g0z"/>
+                            <constraint firstItem="jfF-FK-LQS" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="TTd-dP-NRf"/>
+                            <constraint firstItem="YbJ-u8-VM8" firstAttribute="top" secondItem="jfF-FK-LQS" secondAttribute="bottom" constant="53" id="Y7v-ip-5AF"/>
+                            <constraint firstItem="jfF-FK-LQS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jlY-Ay-SkS"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YbJ-u8-VM8" secondAttribute="bottom" constant="198" id="rj1-Bc-qc8"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="jfF-FK-LQS" id="ev6-I5-gJo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="14" y="96"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="紫霞仙子.jpeg" width="375" height="288"/>
+    </resources>
+</document>
